@@ -1,0 +1,34 @@
+[project]
+name = "pywslocker"
+dynamic = ["version"]
+description = "Python module to lock workstation on Linux, Windows and macOS"
+readme = "README.md"
+authors = [{ name = "Vignesh Sivanandha Rao", email = "svignesh1793@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Terminals :: Terminal Emulators/X Terminals"
+]
+keywords = ["pywslocker", "lock-workstation", "light-weight"]
+requires-python = ">=3"
+
+[tool.setuptools]
+packages = ["pywslocker"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pywslocker.version"}
+
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/thevickypedia/pywslocker"
+Source = "https://github.com/thevickypedia/pywslocker"
+"Bug Tracker" = "https://github.com/thevickypedia/pywslocker/issues"
+"Release Notes" = "https://github.com/thevickypedia/pywslocker/blob/main/release_notes.rst"
