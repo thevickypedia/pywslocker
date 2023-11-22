@@ -1,7 +1,7 @@
-![Generic badge](https://img.shields.io/badge/Platform-Linux|MacOS|Windows-1f425f.svg)
+![Platform](https://img.shields.io/badge/Platform-Linux|MacOS|Windows-1f425f.svg)
 [![pypi-publish](https://github.com/thevickypedia/pywslocker/actions/workflows/python-publish.yml/badge.svg)](https://github.com/thevickypedia/pywslocker/actions/workflows/python-publish.yml)
 
-# PyBrightness
+# PyWSLocker
 Python module to lock workstation on Linux, Windows and macOS
 
 ### Installation
@@ -19,12 +19,12 @@ pywslocker.lock()
 ## [Release Notes](https://github.com/thevickypedia/pywslocker/blob/main/release_notes.rst)
 **Requirement**
 ```shell
-python -m pip install changelog-generator
+python -m pip install gitverse
 ```
 
 **Usage**
 ```shell
-changelog reverse -f release_notes.rst -t 'Release Notes'
+gitverse-release reverse -f release_notes.rst -t 'Release Notes'
 ```
 
 ## Pypi Package
